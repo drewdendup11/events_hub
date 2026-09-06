@@ -267,3 +267,13 @@ img {
     }
 
 }
+
+/* Original pseudo-class: changes button when mouse is over it */
+.btn:hover {
+    transform: scale(1.03);
+}
+
+/* Original attribute selector: styles required inputs */
+input[required] {
+    border-left: 4px solid #0369a1;
+}
