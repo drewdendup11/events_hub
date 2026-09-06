@@ -215,3 +215,16 @@ h2 {
 header {
     background-color: #0f172a;
 }
+
+/* margin and padding */
+.intro {
+    margin: 24px 16px 32px 16px;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    background: white;
+}
+
+section {
+    margin-bottom: 28px;
+    padding-left: 8px;
+}
