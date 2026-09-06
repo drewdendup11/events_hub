@@ -154,3 +154,64 @@ input[type="text"] {
     border: 1px solid #cbd5e1;
     padding: 8px;
 }
+
+/* font -family and font size*/
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.hero-title {
+    letter-spacing: 0.04em;
+    word-spacing: 0.1em;
+}
+
+em {
+    font-style: italic;
+}
+
+.intro p {
+    text-indent: 2em;
+    text-align: justify;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.sold-out {
+    text-decoration: line-through;
+    text-decoration-color: #ef4444;
+    text-decoration-style: solid;
+}
+h2 { 
+    text-align: left; 
+} 
+
+/* COLOUR SCHEME */
+body {
+    color: rgb(30, 41, 59);
+}
+
+h2 {
+    color: #0369a1;
+}
+
+.highlight {
+    color: crimson;
+}
+
+header {
+    background-color: #0f172a;
+}
