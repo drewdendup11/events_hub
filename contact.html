@@ -24,21 +24,84 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 <a href="contact.html">Contact</a> 
 </nav> 
 </header> 
-<main> 
-    <h1>Conatct us</h1>
-    <form>
-        <label>Name:</label>
-        <input type="text"><br><br>
+<main class="container my-5">
 
-        <label>Email:</label>
-        <input type="Email"><br><br>
+    <div class="card shadow">
+        <div class="card-header">
+            <h1>Contact Us</h1>
+        </div>
 
-        <label>Message:</label>
-        <textarea></textarea><br><br>
-        <button type="submit">Submit</button>
-    </form>
-    <h3>College Office Hours</h3>
-    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+        <div class="card-body">
+
+            <h3>Get in Touch</h3>
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                Email: events@jnec.edu.bt
+            </p>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                Phone: +975 17723456
+            </p>
+
+            <hr>
+
+            <form>
+
+                <div class="mb-3">
+                    <label class="form-label">Name:</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email:</label>
+                    <input type="email" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Message:</label>
+                    <textarea class="form-control" rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Submit
+                </button>
+
+            </form>
+
+        </div>
+    </div>
+
+
+    <!-- Map -->
+    <div class="card shadow mt-4">
+        <div class="card-header">
+            <h3>Find Us</h3>
+        </div>
+
+        <div class="card-body">
+
+            <div class="ratio ratio-16x9 border border-dark border-3">
+                <iframe
+                    src="https://www.google.com/maps?q=Jigme%20Namgyel%20Engineering%20College%20Bhutan&output=embed"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Office Hours -->
+    <div class="mt-4">
+        <h3>College Office Hours</h3>
+        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+    </div>
+
+</main>
 <!-- page content here --> 
 </main> 
 <footer> 
